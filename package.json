@@ -1,0 +1,31 @@
+{
+  "name": "cicd_t1",
+  "version": "1.0.0",
+  "description": "Cicd For Life",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "mocha tests/*.spec.js --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenDev35/CICD_T1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenDev35/CICD_T1/issues"
+  },
+  "homepage": "https://github.com/ChenDev35/CICD_T1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.21"
+  }
+}
