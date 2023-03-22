@@ -3,9 +3,9 @@ import express from 'express';
 const port = process.env.port || 3000;
 const app = express();
 
-app.get('/example', (req, res) => {
+app.get('/getUserDetails', (req, res) => {
     console.log('new example request arrived');
-    res.send('<h1>Hi from class</h1>');
+    res.send('{name: "Chen", age: 31}');
 });
 
 app.get('/', (req, res) => {
