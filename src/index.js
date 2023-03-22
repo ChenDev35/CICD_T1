@@ -13,6 +13,6 @@ app.get('/', (req, res) => {
     res.send('<h1>Hi from index.js</h1>');
 });
 
-app.listen(port, ()=>{
+app.listen(port, () => {
     console.log(`server is running at port: ${port}`);
 });
